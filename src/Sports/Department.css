@@ -1,0 +1,24 @@
+/* Body styling to center everything */
+
+
+  /* Flex container for logos */
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*Allowsimagestowraptothenextline*/background-color: gray;
+    padding: 20px;
+    border-radius: 2px solid grey;
+    border-radius: 10px;
+    /*Optionalforroundedcorners*/gap: 20px;
+      /* Optional gap between the logos */  
+}
+  
+  /* Image styling */
+  .logo {
+    width: 100px;
+    height: auto;
+    flex-shrink: 0;  /* Prevent images from shrinking */
+  }
+  
